@@ -14,7 +14,8 @@ A new flutter plugin project.
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
-  s.dependency 'Flutter'
+  s.dependency 'FlutterMacOS'
   s.dependency 'AppAuth', '1.4.0'
-  s.ios.deployment_target = '8.0'
+  s.platform = :osx, '10.11'
+  s.osx.deployment_target = "10.11"
 end
